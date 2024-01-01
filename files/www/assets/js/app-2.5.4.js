@@ -53,8 +53,6 @@ window.onload = function() {
     this.upSymbolDesk = _("upSymbolDesk");
     this.upSymbolMob = _("upSymbolMob");
     this.downSymbolMob = _("downSymbolMob");
-    this.settingsMob = _("settingsMob");
-    this.settingsDesk = _("settingsDesk");
     this.oDoLiveStatus = _("oDoLiveStatus");
     this.ConnectErrorMob = _("ConnectErrorMob");
     this.ConnectErrorDesk = _("ConnectErrorDesk");
@@ -579,8 +577,6 @@ window.onload = function() {
     setFinal();
     var launch = true;
     var init = true;
-    Get.addEvt(Show.settingsMob.el, "click", ShowIP);
-    Get.addEvt(Show.settingsDesk.el, "click", ShowIP);
     Get.addEvt(Show.startButtonDesk.el, "click", runTasks);
     Get.addEvt(Show.startButtonMob.el, "click", runTasks);
     Get.addEvt(document, "keypress", hiEnter);
@@ -790,8 +786,6 @@ window.onload = function() {
     }
     var Startit = 0;
     function removeEvts() {
-      Get.remEvt(Show.settingsMob.el, "click", ShowIP);
-      Get.remEvt(Show.settingsDesk.el, "click", ShowIP);
       Get.remEvt(Show.startButtonDesk.el, "click", runTasks);
       Get.remEvt(Show.startButtonMob.el, "click", runTasks);
       Get.remEvt(document, "keypress", hiEnter);
@@ -995,7 +989,7 @@ window.onload = function() {
           var dummyElement = document.createElement("div");
           // dummyElement.innerHTML = '<a xlink:href="https://openspeedtest.com?ref=Self-Hosted-Outro&run=5" style="cursor: pointer" target="_blank"></a>';
           var htmlAnchorElement = dummyElement.querySelector("a");
-          Show.oDoLiveSpeed.el.textContent = "Open Speed Test";
+          Show.oDoLiveSpeed.el.textContent = "SpeedTest";
           var circleSVG = document.getElementById("oDoLiveSpeed");
           htmlAnchorElement.innerHTML = circleSVG.innerHTML;
           circleSVG.innerHTML = dummyElement.innerHTML;

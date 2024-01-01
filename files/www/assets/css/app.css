@@ -202,18 +202,6 @@ color: #14b0fe;
   stroke-dashoffset: 0;
   display: block;
 }
-.Startsettings {
-  fill: url(#RadialGradient1);
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  -webkit-tap-highlight-color: transparent;
-  cursor: pointer;
-  pointer-events: visible;
-  opacity: 0.1;
-  transition: opacity 1s ease-in-out;
-}
-.Startsettings:hover {
-  opacity: 1;
-}
 
 .progressbg {
   stroke: rgb(231, 231, 232);
