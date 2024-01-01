@@ -368,3 +368,8 @@ color: #14b0fe;
     display: none;
   }
 }
+
+/* Night mode transition */
+* {
+  transition: background-color 0.3s ease-out, color 0.3s ease-out;
+}
