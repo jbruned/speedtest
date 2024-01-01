@@ -373,3 +373,6 @@ color: #14b0fe;
 * {
   transition: background-color 0.3s ease-out, color 0.3s ease-out;
 }
+.Cards {
+  transition: fill 0.3s ease-out;
+}

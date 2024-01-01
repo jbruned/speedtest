@@ -3,7 +3,8 @@
 	xmlns:xlink="http://www.w3.org/1999/xlink"
     class="openSpeedtestApp">
 	<symbol id="logo" viewBox="0 0 262.79 50.38">
-		<title id="title1">SpeedTest</title>
+		<title>SpeedTest</title>
+		<text class="oDoLive-Speed" transform="translate(132 36) scale(1 1)">SpeedTest</text>
 	</symbol>
 	<symbol id="mainGaugebg" viewBox="0 0 295.93 270.18">
 		<path fill="none" d="M64.32,256.41a137,137,0,1,1,192.09-24.8l-.07.09a134.45,134.45,0,0,1-24.71,24.71" />
